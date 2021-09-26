@@ -1,0 +1,126 @@
+/* Common CSS Styling */
+
+:root {
+    --primary: #0026ff;
+    --secondary: #f4f804;
+}
+
+body {
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    direction: ltr;
+}
+
+ul {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    background: var(--primary);
+    color: #fff;
+    padding: 7px 17px;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+    border-radius: 3px;
+}
+
+.btn:hover {
+    border: solid 2px var(--secondary);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#navbar {
+    background-color: var(--secondary);
+}
+
+#logo {
+    color: var(--primary);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#navbar ul {
+    float: right;
+}
+
+.navbar-right {
+    margin-left: 750px;
+    color: var(--primary);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.navbar-right i {
+    color: var(--primary);
+    font-size: 27px;
+}
+
+.navbar-right i:hover {
+    color: #000
+}
+
+.display-card {
+    margin: 20px;
+    background-color: var(--primary);
+    height: fit-content;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
