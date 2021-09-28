@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/geekblower/frontend-mentor-solutions/tree/main/solutions/1.%20Stats-Preview-Card)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/geekblower/frontend-mentor-solutions/tree/main/solutions/newbie/01.%20Stats-Preview-Card)
+- Live Site URL: [Add live site URL here](https://geekblower.github.io/frontend-mentor-solutions/solutions/newbie/01.%20Stats-Preview-Card/index.html)
 
 ### Built with
 
