@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/geekblower/frontend-mentor-solutions/tree/main/solutions/2.%20Order-Summary)
-- Live Site URL: [Add live site URL here](https://geekblower.github.io/frontend-mentor-solutions/)
+- Solution URL: [Solution](https://github.com/geekblower/frontend-mentor-solutions/tree/main/solutions/newbie/02.%20Order-Summary)
+- Live Site URL: [View Live](https://geekblower.github.io/frontend-mentor-solutions/solutions/newbie/02.%20Order-Summary/index.html)
 
 ### Built with
 
