@@ -1,0 +1,95 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background: url(./images/bg-pattern-bottom.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-color: hsl(185, 75%, 39%);
+}
+
+#card {
+    height: 440px;
+    width: 400px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 25px;
+}
+
+#cover {
+    background: url(./images/bg-pattern-card.svg);
+    border-radius: 25px 25px 0 0;
+    height: 160px;
+}
+
+img {
+    border: solid #fff 5px;
+    border-radius: 50%;
+    margin-left: 150px;
+    margin-top: 105px;
+}
+
+#details {
+    margin-top: 65px;
+}
+
+#name {
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(43, 43, 43);
+}
+
+#name span {
+    color: hsl(0, 0%, 59%);
+}
+
+#place {
+    text-align: center;
+    font-family: sans-serif;
+    color: hsl(0, 0%, 59%);
+    margin-top: -5px;
+}
+
+#line {
+    background-color: hsl(0, 0%, 87%);
+    height: 0.1px;
+    margin-top: 35px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    font-family: sans-serif;
+    color: rgb(43, 43, 43);
+    margin-right: 60px;
+    text-align: center;
+}
+
+li h4 {
+    color: hsl(0, 0%, 59%);
+    margin-top: -12px;
+    text-align: center;
+}
+
+#credit {
+    color: #383838;
+    font-family: monospace;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 90px;
+    font-weight: 600;
+}
+
+#credit a {
+    color: #383838;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#credit a:hover {
+    text-decoration: underline;
+    font-style: italic;
+}
