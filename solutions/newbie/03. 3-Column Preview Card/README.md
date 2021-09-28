@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/geekblower/frontend-mentor-solutions/tree/main/solutions/3.%203-Column-Preview-Card)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/geekblower/frontend-mentor-solutions/tree/main/solutions/newbie/03.%203-Column%20Preview%20Card)
+- Live Site URL: [View Live](https://geekblower.github.io/frontend-mentor-solutions/solutions/newbie/03.%203-Column%20Preview%20Card/index.html)
 
 ### Built with
 
