@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/geekblower/frontend-mentor-solutions/tree/main/solutions/newbie/05.%20FAQ%20Accordian)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/geekblower/frontend-mentor-solutions/tree/main/solutions/newbie/05.%20FAQ%20Accordion)
+- Live Site URL: [Live Site](https://geekblower.github.io/frontend-mentor-solutions/solutions/newbie/05.%20FAQ%20Accordion/index.html)
 
 ## My process
 
