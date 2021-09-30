@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution](https://github.com/geekblower/frontend-mentor-solutions/tree/main/solutions/newbie/06.%20Social%20Proof%20Section)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Live Site URL: [Live Site](https://geekblower.github.io/frontend-mentor-solutions/solutions/newbie/06.%20Social%20Proof%20Section/index.html)
 
 ## My process
 
