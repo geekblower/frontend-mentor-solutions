@@ -1,0 +1,151 @@
+#main {
+    background-image: url(./images/bg-pattern-top-desktop.svg);
+}
+
+#up-area {
+    height: 400px;
+    align-items: center;
+    margin: auto;
+    margin-top: 0;
+}
+
+#text {
+    color: hsl(300, 43%, 22%);
+    font-family: sans-serif;
+}
+
+#text h1 {
+    font-weight: 600;
+    font-size: 50px;
+    max-width: 350px;
+}
+
+#text p {
+    opacity: 0.6;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: sans-serif;
+    max-width: 380px;
+}
+
+#ratings {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0%;
+}
+
+.ratings-card {
+    width: 400px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 169, 208, 0.116);
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+}
+
+#card-a {
+    margin-left: 0;
+}
+
+#card-b {
+    margin-left: 65px;
+    margin-top: 20px;
+}
+
+#card-c {
+    margin-left: 130px;
+    margin-top: 20px;
+}
+
+#stars {
+    margin: auto;
+    margin-left: 15px;
+}
+.ratings-card img {
+    height: 15px;
+    width: 15px;
+}
+
+.ratings-card h6 {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: hsl(300, 43%, 22%);
+    margin: auto;
+    margin-left: -25px;
+}
+
+.review-card {
+    height: 260px;
+    width: 370px;
+    background-color: hsl(300, 43%, 22%);
+    color: #fff;
+    margin-left: 0%;
+    margin-right: 10px;
+}
+
+#card-1 {
+    margin-top: 0%;
+}
+
+#card-2 {
+    margin-top: 15px;
+}
+
+#card-3 {
+    margin-top: 30px;
+}
+
+#name {
+    display: flex;
+    margin: 40px auto 25px 20px;
+}
+
+.review-card img {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    margin-right: 22px;
+}
+
+#comment {
+    margin-left: 25px;
+    color: hsl(300, 24%, 96%);
+    margin-right: 20px;
+    opacity: 0.9;
+}
+
+#name h5 {
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 7px;
+}
+
+#name span {
+    color: hsl(333, 80%, 67%);
+    font-weight: 500;
+}
+
+#credit {
+    margin-top: 30px;
+    text-align: center;
+    color: hsl(333, 80%, 67%);
+    font-family: monospace;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+#credit a {
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: hsl(333, 80%, 67%);
+}
+
+#credit a:hover {
+    text-decoration: underline;
+    font-style: italic;
+}
