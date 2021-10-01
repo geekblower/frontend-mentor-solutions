@@ -1,0 +1,134 @@
+@import url('https://fonts.google.com/specimen/Manrope');
+
+body {
+    background-color: hsl(210, 46%, 95%);
+}
+
+#main {
+    display: flex;
+    background-color: #fff;
+    height: 280px;
+    width: 800px;
+    margin: auto;
+    border: none;
+    border-radius: 20px;
+    margin-top: 190px;
+}
+
+#drawers {
+    height: 280px;
+    border: none;
+    border-radius: 20px 0 0 20px;
+}
+
+#text-area {
+    margin-left: 25px;
+}
+
+h2 {
+    font-family: 'Manrope', sans-serif;
+    color: hsl(217, 19%, 35%);
+}
+
+p {
+    font-family: 'Manrope', sans-serif;
+    color: hsl(214, 17%, 51%);
+}
+
+#profile-card {
+    display: flex;
+    align-items: center;
+}
+
+#profile {
+    height: 50px;
+    border-radius: 25px;
+}
+
+h5 {
+    font-family: 'Manrope', sans-serif;
+    color: hsl(217, 19%, 35%);
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+span {
+    font-family: 'Manrope', sans-serif;
+    color: hsl(214, 17%, 51%);
+    font-weight: 500;
+}
+
+.second {
+    display: flex;
+    flex-direction: row;
+    height: 5px;
+    max-width: 160px;
+    align-items: center;
+    position: absolute;
+    margin-left: 250px;
+    margin-bottom: 100px;
+    padding: 18px 40px;
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 0 0 10px 10px;
+}
+
+.second h4 {
+    color: hsl(212, 23%, 69%);
+    margin-left: -5px;
+    margin-right: 10px;
+}
+
+.second img {
+    margin: 0 10px;
+}
+
+.hidden {
+      display: none;
+}
+
+.share {
+    background-color: hsl(210, 46%, 95%);
+    margin-left: 150px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.share:hover {
+    background-color: hsl(215, 71%, 9%);
+}
+
+.share-icon {
+    height: 16px;
+    align-items: center;
+    margin-left: 6.2px;
+    margin-top: 5.2px;
+    z-index: 1000;
+}
+
+.share-icon-active {
+    z-index: 99999;
+}
+
+#credit {
+    color: hsl(217, 19%, 35%);
+    font-size: 15px;
+    text-align: center;
+    font-family: monospace;
+    font-weight: 500;
+    margin-top: 98px;
+}
+
+#credit a {
+    color: hsl(217, 19%, 35%);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#credit a:hover {
+    text-decoration: underline;
+    font-style: italic;
+}
