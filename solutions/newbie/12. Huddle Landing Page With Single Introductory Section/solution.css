@@ -1,0 +1,110 @@
+@import url('https://fonts.google.com/specimen/Open+Sans');
+
+body {
+    padding: 0%;
+    margin: 0%;
+    background: url(./images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+}
+
+#logo {
+    margin-top: 40px;
+    margin-left: 70px;
+}
+
+#center-area {
+    display: flex;
+}
+
+#image-area {
+    margin-top: 60px;
+    margin-left: 70px;
+}
+
+#text-area {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    text-align: left;
+    margin-left: 60px;
+    margin-top: 75px;
+}
+
+#text-area h1 {
+    font-size: 52px;
+    text-transform: capitalize;
+    line-height: 65px;
+    margin-bottom: 30px;
+}
+
+#text-area p {
+    font-size: 15px;
+    letter-spacing: 1px;
+    max-width: 470px;
+    line-height: 25px;
+    opacity: 0.8;
+    margin-top: 0%;
+    margin-bottom: 20px;
+}
+
+#btn {
+    background-color: #fff;
+    border: none;
+    border-radius: 35px;
+    color: hsl(257, 40%, 49%);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 20px 60px;
+    box-shadow: 3px 3px 10px #000;
+}
+
+#btn:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+}
+
+#social {
+    margin-right: 50px;
+}
+
+i {
+    color: #fff;
+    font-size: 30px;
+    margin: 10px;
+    border: #fff 3px solid;
+    border-radius: 30px;
+    padding: 5px;
+    float: right;
+    margin-top: -7px;
+}
+
+i:hover {
+    color: hsl(300, 69%, 71%);
+    border: hsl(300, 69%, 71%) 3px solid;
+}
+
+#credit {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: monospace;
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 0%;
+}
+
+#credit a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#credit a:hover {
+    text-decoration: underline;
+    font-style: italic;
+}
