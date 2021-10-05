@@ -1,0 +1,153 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    height: 100vh;
+    background: url(./images/bg-desktop.png);
+    background-color: hsl(229, 57%, 11%);
+    background-repeat: no-repeat;
+    background-position-y: 140%;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+#card1 {
+    margin: auto;
+    background-color: hsl(228, 56%, 26%);
+    padding: 30px 100px 30px 30px;
+    border-radius: 10px 80px 10px 10px;
+    width: fit-content;
+    margin-right: 30px;
+    margin-top: 250px;
+}
+
+#logo {
+    height: 100%;
+    margin-bottom: 25px;
+}
+
+#social-plate {
+    display: flex;
+}
+
+#social {
+    background-color: hsl(229, 57%, 11%);
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    margin-right: 15px;
+    min-height: 25px;
+}
+
+#social:hover {
+    background-color: hsl(0, 0%, 0%);
+    cursor: pointer;
+}
+
+#card2 {
+    margin: auto;
+    background-color: hsl(229, 27%, 35%);
+    padding: 20px 30px;
+    border-radius: 10px;
+    width: fit-content;
+    margin-left: 0%;
+    margin-top: 306px;
+}
+
+h3 {
+    color: rgba(255, 255, 255, 0.76);
+    font-size: 11px;
+    font-weight: 400;
+    font-family: sans-serif;
+    letter-spacing: 0.8px;
+    margin-bottom: 5px;
+}
+
+strong {
+    font-weight: 1000px;
+}
+
+#progress-bar {
+    width: 400px;
+    background-color: hsl(229, 57%, 11%);
+    border: solid 1px #000;
+    border-radius: 5rem;
+}
+
+#progress-bar-color {
+    width: 75%;
+    background-color: hsl(335, 100%, 65%);
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 5rem;
+}
+
+#bell {
+    width: 12px;
+    height: 12px;
+    background-color: hsl(243, 100%, 93%);
+    border-radius: 3rem;
+}
+
+#box-down {
+    margin-top: 7px;
+    display: flex;
+}
+
+#text {
+    font-family: sans-serif;
+    font-size: 10px;
+    color: #fff;
+}
+
+#floating-img {
+    background-color: #fff;
+    text-align: center;
+    width: fit-content;
+    padding: 10px 15px;
+    border-radius: 10px;
+    position: relative;
+    margin: auto;
+    margin-left: -500px;
+    margin-top: 275px;
+}
+
+#floating-img strong {
+    font-size: 35px;
+    margin-right: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#floating-img span {
+    font-size: 12px;
+    font-weight: 500;
+    opacity: 0.9;
+}
+
+#credit {
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 500;
+    font-family: monospace;
+    margin-bottom: -45px;
+    margin-top: 210px;
+}
+
+#credit a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#credit a:hover {
+    text-decoration: underline;
+    font-style: italic;
+}
