@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+/*
+font-family: 'Inter', sans-serif;
+font-family: 'Lexend Deca', sans-serif;
+*/
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    color: #ffffff;
+    font-size: 15px;
+    background-color: hsl(233, 47%, 7%);
+} 
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 40%;
+    position: absolute;
+    top: 30%;
+    bottom: 30%;
+    left: 10%;
+    right: 10%;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 10px;
+
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: 'Inter', sans-serif;
+    width: 50% ;
+    height: 100%;
+    padding-right: 8%;
+    
+}
+.right{
+    width: 50%;
+    background: linear-gradient( hsl(277deg 78% 33% / 53%) , hsl(277deg 64% 61% / 30%) ),url(../images/image-header-desktop.jpg) no-repeat;
+    background-size: cover;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 100%;
+}
+.text{
+    margin: 10%;
+    padding: 0% 4% 0% 1%;
+    letter-spacing: 1px;
+}
+p{
+    margin-top: 4%;
+    color: #ffffffbe;
+}
+h1{
+    font-size: 2.2rem;
+
+}
+#highlight{
+    color: hsl(277, 64%, 61%);
+}
+.bottom{
+   /*  font-family: 'Lexend Deca', sans-serif; */
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 9%;
+    color: #ffffff86;
+}
+#number{
+    color: #ffffff;
+    font-size:1.5rem ;
+}
+.bottom1,.bottom2,.bottom3{
+    width: 10%;
+    font-weight: 100;
+}
+.attribution {
+     font-size: 1rem; 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    }
+.attribution a { color: hsl(48, 100%, 88%); }
+
+@media only screen and (max-width: 600px) {
+   .main{
+        top: 10%;
+       flex-direction: column-reverse;
+       justify-content: center;
+       align-items: center;
+       height: 70%;
+       border-radius: 10px;
+   }
+   h1{
+       font-size: 1.1rem;
+   }
+   .left{
+       text-align: center;
+        justify-content: space-between;
+height: 100%;
+              width: 100%;
+    }
+   .right{
+       height: 30%;
+       width: 100%;
+       border-top-right-radius: 10px;
+       border-top-left-radius: 10px;
+       border-bottom-right-radius: 0;
+    }
+   .bottom{
+       flex-direction: column;
+     align-items: center;
+    }
+   p{
+       font-size: 0.6rem ;
+   }
+   .bottom1, .bottom2, .bottom3{
+       text-align: center;
+   }
+  }
